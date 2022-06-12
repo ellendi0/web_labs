@@ -1,0 +1,91 @@
+$color_orange: rgb(220, 156, 147);
+$color_orange_light: rgb(131, 112, 112);
+
+.main {
+    background: url("https://images7.alphacoders.com/694/thumb-1920-694702.jpg")
+        no-repeat center center fixed;
+    background-size: cover;
+    justify-content: center;
+}
+
+.header a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.wrapper {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+    width: 80%;
+}
+
+.wrapper__menu-ul {
+    list-style: none;
+    margin: 5px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 8px 16px 0px rgb(110, 79, 79);
+
+    & li {
+        padding: 10px;
+    }
+}
+
+.wrapper__menu-ul li a {
+    padding: 6px;
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    background-color: #b9817b;
+    box-shadow: 0px 8px 12px 5px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper__menu-ul li a:hover{
+    background-color: $color_orange;
+}
+
+.buttons-block {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+
+    & button {
+        border: 1px solid rgb(165, 157, 157);
+        border-radius: 1px;
+        font-size: 20px;
+        padding: 5px 15px 5px 15px;
+        color: white;
+    }
+
+    & .btn-submin {
+
+        background-color: rgb(185, 129, 123);
+
+        &:hover {
+            background-color: rgb(180, 86, 86);;
+        }
+    }
+
+    & .btn-delete {
+        background-color: #b9817b;
+
+        &:hover {
+            background-color: rgb(180, 86, 86);
+        }
+    }
+}
+
+.main {
+
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex: 1 0 auto;
+    overflow: auto;
+}
+
+

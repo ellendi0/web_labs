@@ -1,0 +1,13 @@
+<div class="menu-wrapper">
+    <div class="menu">
+        <h3>Menu</h3>
+        
+        <ul class="menu-ul">     
+            <li *ngFor="let it of items">
+                <a href={{groupsUrl}}{{it.id}}>
+                    {{it.name}}
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

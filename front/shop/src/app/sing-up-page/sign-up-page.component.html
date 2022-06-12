@@ -1,0 +1,39 @@
+<div class="body-block">
+  <app-nav-bar></app-nav-bar>
+    <div class="main">
+        <div class="login-block">
+            <div class="wrapper">
+                <form>
+                    <div class="form__header">
+                    <p class="logo_text">
+                        Book Store
+                    </p>
+                    <div class="triangle"></div>
+                    </div>
+
+                    <div class="form__body">
+                    <p class="title">
+                        Welcome!
+                        <span>Start now</span>
+                    </p>
+                      <p class="description"></p>
+                    <input type="text" [(ngModel)]="username" placeholder="Name" name="inpUserName"/>
+                    <input type="email" [(ngModel)]="email" placeholder="Email Address" name="inpEmail"/>
+                    <input type="password" [(ngModel)]="password" placeholder="Create a Password" name="inpPassword"/>
+
+                    <button type="button" (click)="registerNewUser()" [disabled]="btnDisabled" >Sign Up</button>
+                    </div>
+                </form>
+
+                <div class="login">
+                    <p>Already have an account?
+                    <a href="login">Login</a>
+                    </p>
+                </div>
+
+                </div>
+
+        </div>
+    </div>
+</div>
+

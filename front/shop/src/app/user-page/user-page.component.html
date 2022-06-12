@@ -1,0 +1,22 @@
+<div class="body-block">
+    <app-nav-bar></app-nav-bar>
+
+    <div class="main">
+        <div class="wrapper">
+            <ul class="wrapper__menu-ul">
+                <li><a href="#1">Personal info</a>
+                    <li>Username: <input type="text" [(ngModel)]="username" placeholder="Name"></li>
+                    <li>Email: <input type="email" [(ngModel)]="email" placeholder="Email" disabled="true"></li>
+                    <li>New password: <input type="text" [(ngModel)]="password" placeholder="New Password"></li>
+                <li>
+                    <a href="#2">Orders</a>
+                    <li>Have a nice day!
+                </li>
+            </ul>
+            <div class="buttons-block">
+                <button class="btn-submin" (click)="patchUser()">Submit</button>
+                <button class="btn-delete" (click)="deleteUser()" >Delete myself</button>
+            </div>
+        </div>
+    </div>
+</div>

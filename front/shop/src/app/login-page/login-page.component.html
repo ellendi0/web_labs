@@ -1,0 +1,36 @@
+<div class="body-block">
+    <app-nav-bar></app-nav-bar>
+
+    <div class="main">
+        <div class="login-block">
+            <div class="wrapper">
+                <form>
+                    <div class="form__header">
+                    <p class="logo_text">
+                         Book Store
+                    </p>
+                    <div class="triangle"></div>
+                    </div>
+
+                    <div class="form__body">
+                    <p class="title">
+                        Welcome!
+                        <span>Start now</span>
+                    </p>
+                    <p class="description"></p>
+                    <input type="email" [(ngModel)]="email" placeholder="Email Address" name="inpEmail"/>
+                    <input type="password" [(ngModel)]="password" placeholder="Password" name="inpPassword"/>
+                    <button type="button" [disabled]="btnDisabled" (click)="loginUser()">Log In</button>
+                    </div>
+                </form>
+
+                <div class="login">
+                    <p>Do not have an account?
+                    <a href="singUp">Sing Up</a>
+                    </p>
+                </div>
+
+                </div>
+        </div>
+    </div>
+</div>
