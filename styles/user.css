@@ -1,0 +1,87 @@
+.main {
+  background-color: whitesmoke;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid;
+  display: block;
+  width: 80%;
+}
+
+.wrapper__menu-ul {
+  list-style: none;
+  margin: 5px;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper__menu-ul li {
+  padding: 6px;
+}
+
+.wrapper__menu-ul li a {
+  padding: 6px;
+  color: black;
+  text-decoration: none;
+  display: block;
+  background-color: grey;
+  -webkit-box-shadow: 0px 8px 12px 5px rgba(248, 166, 12, 0.2);
+          box-shadow: 0px 8px 12px 5px rgba(248, 166, 12, 0.2);
+}
+
+.wrapper__menu-ul li a:hover {
+  background-color: #b6d9c9;
+}
+
+.buttons-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 6px;
+}
+
+.buttons-block button {
+  border: 1px solid #a59d9d;
+  border-radius: 1px;
+  font-size: 20px;
+  padding: 5px 15px 5px 15px;
+  color: white;
+}
+
+.buttons-block .btn-submin {
+  background-color: #8a6c64;
+}
+
+.buttons-block .btn-submin:hover {
+  background-color: #c7a6a6;
+}
+
+.buttons-block .btn-delete {
+  background-color: red;
+}
+
+.buttons-block .btn-delete:hover {
+  background-color: #f87373;
+}
+/*# sourceMappingURL=user.css.map */

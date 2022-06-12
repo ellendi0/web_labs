@@ -1,0 +1,199 @@
+.header {
+  -webkit-box-shadow: 8px 8px 16px -8px black;
+          box-shadow: 8px 8px 16px -8px black;
+}
+
+.main {
+  background: linear-gradient(45deg, rgba(255, 251, 0, 0) -40%, rgba(10, 226, 0, 0) 45%, rgba(114, 83, 83, 0) 130%);
+}
+
+.login-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.login-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-self: center;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  background: url("https://images7.alphacoders.com/694/thumb-1920-694702.jpg")
+        no-repeat center center fixed;
+  background-size: cover;
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+form {
+  width: 350px;
+  height: 450px;
+}
+
+form .form__header {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background-color: #323a45;
+  border-radius: 5px 5px 0 0;
+}
+
+form .form__header .logo_text {
+  padding-top: 30px;
+  padding-left: 50px;
+  display: block;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+form .form__header .triangle {
+  position: absolute;
+  left: 47.5%;
+  bottom: -9%;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #323a45;
+}
+
+form .form__body {
+  height: calc(100% - 80px);
+  background-color: #fff;
+  text-align: center;
+  border-radius: 0 0 5px 5px;
+}
+
+form .form__body .title {
+  padding-top: 30px;
+  margin: 0;
+  font-weight: 600;
+}
+
+form .form__body .title span {
+  color: #ff2f63;
+  text-transform: uppercase;
+}
+
+form .form__body .description {
+  font-size: 12px;
+}
+
+form .form__body input {
+  width: 250px;
+  padding: 8px;
+  margin: 7px;
+  border: 1px solid #cccdd1;
+  border-radius: 5px;
+  outline: none;
+}
+
+form .form__body input:focus {
+  border-color: #ff2f63;
+}
+
+form .form__body input::-webkit-input-placeholder {
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  opacity: 0.8;
+}
+
+form .form__body input:-ms-input-placeholder {
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  opacity: 0.8;
+}
+
+form .form__body input::-ms-input-placeholder {
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  opacity: 0.8;
+}
+
+form .form__body input::placeholder {
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  opacity: 0.8;
+}
+
+form .form__body input:focus::-webkit-input-placeholder {
+  opacity: 0.3;
+}
+
+form .form__body input:focus:-ms-input-placeholder {
+  opacity: 0.3;
+}
+
+form .form__body input:focus::-ms-input-placeholder {
+  opacity: 0.3;
+}
+
+form .form__body input:focus::placeholder {
+  opacity: 0.3;
+}
+
+form .form__body button {
+  width: 250px;
+  padding: 14px;
+  margin-top: 10px;
+  background-color: #ff2f63;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login {
+  text-align: center;
+}
+
+.login {
+  margin-top: 20px;
+  font-size: 20px;
+  background: rgba(59, 46, 40, 0.9);
+  color: darken(gray, 20%);
+}
+
+.login a {
+  color: #ff2f63;
+  text-decoration: none;
+}
+/*# sourceMappingURL=login.css.map */
